@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "pretendard";
+    src: url(../fonts/Pretendard-Regular.woff) format(truetyoe);
+}
+@font-face {
+    font-family: "pretendard-Medium";
+    src: url(../fonts/Pretendard-Medium.woff) format(truetyoe);
+}
+@font-face {
+    font-family: "pretendard-SemiBold";
+    src: url(../fonts/Pretendard-SemiBold.woff) format(truetyoe);
+}
+@font-face {
+    font-family: "pretendard-Bold";
+    src: url(../fonts/Pretendard-Bold.woff) format(truetyoe);
+}

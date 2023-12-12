@@ -1,0 +1,314 @@
+header {
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 210px;
+    position: absolute;
+    z-index: 50;
+}
+
+header:hover {
+    background-color: white;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+header:hover a {
+    color: #000
+}
+
+header:hover .logo a {
+    display: block;
+    background-image: url(../images/header/logo.png);
+}
+
+header a {
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 210px;
+    line-height: 60px;
+}
+
+header .logo a {
+    display: block;
+    background-image: url(../images/header/logo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 154px;
+    height: 32px;
+}
+
+header nav .logo img {
+    vertical-align: -10px;
+}
+
+header nav .depth1 {
+    display: flex;
+    height: 60px;
+}
+
+header nav .depth1 li {
+    width: 150px;
+    text-align: center;
+}
+
+header nav .depth1 li a {
+    padding: 20.5px 47px;
+}
+
+header nav .depth1>li:hover {
+    border-bottom: 2px solid #0AB481;
+}
+
+header nav .depth1 li .depth2 {
+    position: absolute;
+    top: 60px;
+    z-index: 10;
+    display: none;
+}
+
+header nav .depth1>li.show .depth2 {
+    display: block;
+}
+
+/* header nav .depth1>li:hover~li .depth2 {
+    display: block;
+} */
+header nav .depth1>li:hover .nav-bg {
+    display: block;
+}
+
+header nav .depth1 li .depth2 {
+    height: 180px;
+    background-color: white;
+}
+
+header nav .depth1 li .depth2 li {
+    line-height: 2em;
+}
+
+header nav .depth1 li .depth2 li a:hover {
+    color: #0AB481;
+}
+
+header nav .depth1 li .depth2 li a {
+    text-align: center;
+    padding: 8px 31px;
+    color: #000;
+}
+
+header nav .depth1 li .depth2 li:first-child {
+    padding-top: 15px;
+}
+
+header nav .nav-bg {
+    width: 100vw;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: none;
+}
+
+header .icon {
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+
+
+header .icon a:nth-child(1) {
+    background-image: url(../images/header/오시는길2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 15px;
+    width: 86px;
+    height: 30px;
+
+}
+
+header:hover .icon a:nth-child(1) {
+    background-image: url(../images/header/오시는길.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 86px;
+    height: 30px;
+}
+
+header .icon a:nth-child(2) {
+    background-image: url(../images/header/EN2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 43px;
+    height: 16px;
+}
+/* 재관 */
+#rmsduddlgud1 {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    font-family: "Noto Sansf KR", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 20px; */
+
+    color: #fff;
+    /* background-color: #fff; */
+
+    background-color: transparent;
+    border: none;
+    /* text-align: center; */
+    margin-bottom: 5px;
+    /* vertical-align: top; */
+    cursor: pointer;
+}
+
+header:hover .icon #rmsduddlgud1 {
+    color: #000;
+}
+
+
+
+
+select:focus {
+    /* border-color: #aaa; */
+    /* box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7); */
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #0AB481;
+    outline: none;
+  }
+/* 11111111111111111111 */
+header .icon {
+    position: relative;
+}
+header .icon .arrow {
+    position: absolute;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/header/iconamoon_arrow-up-2-fill\ \(1\).png);
+}
+header:hover .icon .arrow {
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/header/iconamoon_arrow-up-2-fill.png);
+}
+
+header:hover .icon a:nth-child(2) {
+    background-image: url(../images/header/EN.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 43px;
+    height: 16px;
+}
+
+.tndussnsk {
+    width: 10px;
+    margin-right: 50px;
+}
+
+
+footer {
+    width: 100%;
+    height: 691px;
+    background-color: #262626;
+    padding: 100px 210px 125px;
+    color: #C4C4C4;
+}
+
+footer a {
+    color: #C4C4C4;
+}
+
+footer .depth1 {
+    font-size: 15px;
+    padding-top: 50px;
+    display: flex;
+}
+
+footer .depth1 .depth2 {
+    font-size: 13px;
+    padding-top: 30px;
+    padding-right: 96px;
+}
+
+footer .depth1 .depth2 li {
+    padding-bottom: 8px;
+}
+
+footer p {
+    color: #C4C4C4;
+}
+
+footer .clause {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    height: 77px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+footer .clause div {
+    display: flex;
+    align-items: center;
+}
+
+footer .clause a {
+    padding-right: 50px;
+    font-size: 24px;
+}
+
+footer .clause div>p {
+    padding-right: 40px;
+    font-size: 14px;
+}
+
+footer .clause .language>p {
+    padding-right: 22px;
+}
+/* 푸터 재관 */
+#rmsduddlgud2 {
+    /* -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none; */
+
+
+    font-family: "Noto Sansf KR", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 20px; */
+
+    color: #818181;
+    /* background-color: #fff; */
+
+    background-color: #F1F1F1;
+    border: none;
+    /* text-align: center; */
+    
+    margin-bottom: 5px;
+    /* vertical-align: top; */
+    /* border: 1px solid red; */
+    padding: 11px 55px 10px 15px ;
+    cursor: pointer;
+}
+/* 재관 111111111111111111111111111111111111111111111 */
+
+footer .address p:first-child {
+    margin-top: 35px;
+}
+
+footer .address p {
+    padding-bottom: 8px;
+}
